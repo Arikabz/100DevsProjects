@@ -1,0 +1,141 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.wrap{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 11px;
+  grid-auto-rows: minmax(32vh, auto);
+}
+section {
+  text-align: center;
+  border: 5px solid black;
+  border-radius: 3%;
+  font-family: sans-serif;
+  font-size: larger;
+  font-weight: bold;
+
+}
+body{
+  background: rgb(166,16,6);
+  background: linear-gradient(90deg, rgba(166,16,6,0.5) 0%, rgba(116,9,121,0.5) 35%, rgba(46,0,255,0.5) 94%);
+}
+h1{
+  display: inline;
+  font-family: sans-serif;
+  font-size: larger;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+
+}
+
+
+/*Coral Reef*/
+.cr1{
+  background-image: url("../Oceanpix/Coralreef/top-left.jpg");
+  background-repeat: no-repeat;
+  background-size: 32vw 32vh;
+}
+.cr2{
+  background-image: url("../Oceanpix/Coralreef/top-mid.jpg");
+  background-repeat: no-repeat;
+  background-size: 33vw 33vh;
+}
+.cr3{
+  background-image: url("../Oceanpix/Coralreef/top-right.jpg");
+  background-repeat: no-repeat;
+  background-size: 33vw 33vh;
+}
+.cr4{
+  background-image: url("../Oceanpix/Coralreef/mid-left.jpg");
+  background-repeat: no-repeat;
+  background-size: 33vw 33vh;
+}
+.cr5{
+  background-image: url("../Oceanpix/Coralreef/mid-mid.jpg");
+  background-repeat: no-repeat;
+  background-size: 33vw 33vh;
+}
+.cr6{
+  background-image: url("../Oceanpix/Coralreef/mid-right.jpg");
+  background-repeat: no-repeat;
+  background-size: 33vw 33vh;
+}
+.cr7{
+  background-image: url("../Oceanpix/Coralreef/bottom-left.jpg");
+  background-repeat: no-repeat;
+  background-size: 33vw 33vh;
+}
+.cr8{
+  background-image: url("../Oceanpix/Coralreef/bottom-mid.jpg");
+  background-repeat: no-repeat;
+  background-size: 33vw 33vh;
+}
+.cr9{
+  background-image: url("../Oceanpix/Coralreef/bottom-right.jpg");
+  background-repeat: no-repeat;
+  background-size: 33vw 33vh;
+}
+
+/*Ocean Coral*/
+.oc1{
+  background-image: url("../Oceanpix/oceancoral/top-left.jpg");
+  background-repeat: no-repeat;
+  background-size: 33vw 33vh;
+}
+.oc2{
+  background-image: url("../Oceanpix/oceancoral/top-mid.jpg");
+  background-repeat: no-repeat;
+  background-size: 33vw 33vh;
+}
+.oc3{
+  background-image: url("../Oceanpix/oceancoral/top-right.jpg");
+  background-repeat: no-repeat;
+  background-size: 33vw 33vh;
+}
+.oc4{
+  background-image: url("../Oceanpix/oceancoral/middle-left.jpg");
+  background-repeat: no-repeat;
+  background-size: 33vw 33vh;
+}
+.oc5{
+  background-image: url("../Oceanpix/oceancoral/mid-mid.jpg");
+  background-repeat: no-repeat;
+  background-size: 33vw 33vh;
+}
+.oc6{
+  background-image: url("../Oceanpix/oceancoral/mid-right.jpg");
+  background-repeat: no-repeat;
+  background-size: 33vw 33vh;
+}
+.oc7{
+  background-image: url("../Oceanpix/oceancoral/bottom-left.jpg");
+  background-repeat: no-repeat;
+  background-size: 33vw 33vh;
+}
+.oc8{
+  background-image: url("../Oceanpix/oceancoral/bottom-mid.jpg");
+  background-repeat: no-repeat;
+  background-size: 33vw 33vh;
+}
+.oc9{
+  background-image: url("../Oceanpix/oceancoral/bottom-right.jpg");
+  background-repeat: no-repeat;
+  background-size: 33vw 33vh;
+}
